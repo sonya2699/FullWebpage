@@ -184,6 +184,29 @@ padding: 10px;
     text-align: center;
     margin-top: 20px;
 }
+@media (max-width: 768px) {
+    header .container,
+    #newsletter .container,
+    #boxes .container {
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+    }
+
+    #showcasse .container {
+        padding-bottom: 50px;
+    }
+
+    #boxes .container .box {
+        width: 80%;
+    }
+    #about .container,
+    #services .container {
+        grid-template-columns: 1fr;
+    }
+    
+    
+}
 
 
 
